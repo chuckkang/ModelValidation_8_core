@@ -4,6 +4,7 @@ namespace registration_8.Models
 {
 	public class UserModel : BaseEntity
 	{
+		//THIS IS JUST A TEST TO SEE IF THIS IN THE MASTER
 		[Required, MinLength(2, ErrorMessage="First Name must be longer than 1 character"), MaxLength(100)]
 		[DataType(DataType.Text, ErrorMessage="Do not include any special characters or numbers.")]
 		[Display(Name = "First Name")]
