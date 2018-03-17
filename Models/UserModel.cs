@@ -4,7 +4,7 @@ namespace registration_8.Models
 {
 	public class UserModel : BaseEntity
 	{
-		/// THIS IS A CHANGE ON teh BRANCH
+		/// THIS IS A CHANGE ON teh BRANCH  aasdf asdf 
 		[Required, MinLength(2, ErrorMessage="First Name must be longer than 1 character"), MaxLength(100)]
 		[DataType(DataType.Text, ErrorMessage="Do not include any special characters or numbers.")]
 		[Display(Name = "First Name")]
