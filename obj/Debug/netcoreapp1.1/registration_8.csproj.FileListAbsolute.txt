@@ -1,0 +1,8 @@
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\bin\Debug\netcoreapp1.1\registration_8.deps.json
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\bin\Debug\netcoreapp1.1\registration_8.runtimeconfig.json
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\bin\Debug\netcoreapp1.1\registration_8.runtimeconfig.dev.json
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\bin\Debug\netcoreapp1.1\registration_8.dll
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\bin\Debug\netcoreapp1.1\registration_8.pdb
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\obj\Debug\netcoreapp1.1\registration_8.AssemblyInfo.cs
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\obj\Debug\netcoreapp1.1\registration_8.dll
+C:\Users\Chuck Kang\Documents\Programming\CodingDojo\Microsoft\projects\registration_8\obj\Debug\netcoreapp1.1\registration_8.pdb

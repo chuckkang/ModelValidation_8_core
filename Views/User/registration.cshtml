@@ -1,0 +1,46 @@
+@model registration_8.Models.UserModel
+
+
+<!-- 
+@for (int x = 0; x < ViewBag.Results.Count; x++)
+{
+	<p>@ViewBag.Results[x]["first_name"]</p>
+	<p>@ViewBag.Results[x]["created_at"]</p>
+} -->
+
+@foreach (var error in ViewBag.Errors)
+{
+	if (error.Errors.Count > 0 )
+	{
+		<p>@error.Errors[0].ErrorMessage;</p>
+	}
+	
+}
+
+<div class="container">
+	<div class="row text-center">
+		<div class="formalign">
+				<h2>THis is the registration page.</h2>
+				@using (Html.BeginForm("", "user", FormMethod.Post))
+					{
+						<p class = "">
+							@Html.LabelFor(model => model.FirstName, new {@class="text text-danger text-right"}) : @Html.TextBoxFor(model => model.FirstName, new {@class = "border border-black"}) <br>@Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })</p>
+
+						<p class = "">
+							@Html.LabelFor(model => model.LastName) : @Html.TextBoxFor(model => model.LastName, new {@class = "border border-black"}) <br>@Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })</p>
+						
+						<p class = "">
+							@Html.LabelFor(model => model.Email) : @Html.TextBoxFor(model => model.Email, new {@class = "border border-black"}) @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })</p>
+						
+						<p class = "">
+							@Html.LabelFor(model => model.Password) : @Html.TextBoxFor(model => model.Password, new {@class = "border border-black"}) @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })</p>
+
+						<p class = "">
+							@Html.LabelFor(model => model.ConfirmPassword) : @Html.TextBoxFor(model => model.ConfirmPassword, new {@class = "border border-black"}) @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })</p>
+						<button type="submit" class="btn btn-primary">Submit</button>
+
+					}
+		
+		</div>
+	</div>
+</div>
